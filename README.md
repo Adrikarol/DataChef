@@ -1,11 +1,11 @@
-<h1>c16-95-m-data-bi</h1>
-
-<img src="data.jpg" alt="data" width="500" height="300">
-
-<Br>
 <p><b>¡Bienvenid@s al repositorio del grupo 95 del cohorte 16 de data-bi de No Country! </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></p>
-<hr>
-<Br>
+
+<h1>Gestor restaurante</h1>
+
+<img src="rest.jpg" alt="data" width="500" height="300">
+
+<p>Nuestro gestor de restaurantes permite a los establecimientos llevar un control detallado de ventas y visualizar distintos análisis que faciliten la toma de decisiones.
+Actualmente estamos en proceso de mejors, ¡muy pronto podrás ver más acerca de su funcionamiento!</p>
 
 |Participantes|Roles|
 |:---:|:---:|
