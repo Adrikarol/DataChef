@@ -19,3 +19,4 @@ Actualmente estamos en proceso de mejora, ¡muy pronto podrás ver más acerca d
 |<a href="https://github.com/jcdip2500">Julio Dip</a>|![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge)|
 |<a href="https://github.com/Matias-Ibarra">Matias Ibarra</a>|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge) ![](https://img.shields.io/badge/DATA%20ENGINEER-green?style=for-the-badge)|
 |<a href="https://github.com/MartinGalasso">Martin Galasso</a>|![](https://img.shields.io/badge/DATA%20ENGINEER-green?style=for-the-badge)|
+|<a href="https://github.com/MCCoronel">Maria Celeste Coronel</a>|![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge)|
