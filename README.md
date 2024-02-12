@@ -1,8 +1,9 @@
-<p><b>¡Bienvenid@s al repositorio del grupo 95 del cohorte 16 de data-bi de No Country! </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></p>
 
-<h1>Gestor restaurante</h1>
+<img src="Media/Header ReadMe.png" alt="Header" width="100%">
 
-<img src="rest.jpg" alt="data" width="500" height="300">
+<h3><b>¡Bienvenid@s al repositorio del grupo 95 del cohorte 16 de data-bi de No Country! </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h3>
+<br>
+<h1><b>DataChef: Optimización Gastronómica</b></h1>
 
 <p>Nuestro gestor de restaurantes permite a los establecimientos llevar un control detallado de ventas y visualizar distintos análisis que faciliten la toma de decisiones.
 Actualmente estamos en proceso de mejora, ¡muy pronto podrás ver más acerca de su funcionamiento!</p>
