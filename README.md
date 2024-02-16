@@ -21,6 +21,6 @@ Actualmente estamos en proceso de mejora, ¡muy pronto podrás ver más acerca d
 |<a href="https://github.com/MartinGalasso">Martin Galasso</a>|![](https://img.shields.io/badge/DATA%20ENGINEER-%23008000?style=for-the-badge)|
 |<a href="https://github.com/MCCoronel">Maria Celeste Coronel</a>|![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge)|
 |<a href="https://github.com/bichitox">Carlos Loayza</a>|![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge)|
-|<a href="https://github.com/DiegoUriel1">Diego Gallegos Estudillo</a>|![](https://img.shields.io/badge/DATA%20ENGINEER-%23008000?style=for-the-badge)|
+|<a href="https://github.com/DiegoUriel1">Diego Gallegos Estudillo</a>|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge)|
 |<a href="https://github.com/marielasirur">Mariela Flores</a>|![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge)|
-|<a href="https://github.com/Angeltusp">Angel Gallegos Estudillo</a>|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge)|
+|<a href="https://github.com/Angeltusp">Angel Gallegos Estudillo</a>|![](https://img.shields.io/badge/DATA%20ENGINEER-%23008000?style=for-the-badge)|
