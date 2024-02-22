@@ -38,7 +38,9 @@ A través de un análisis exhaustivo de los datos disponibles, se identificarán
 - **Interpretes:** Visual Studio Code / Jupyter Notebook
 
 ### Análisis de datos
-- **Visualización:** Power BI
+- **Limpieza y Visualización:**
+- Excel
+- Power BI
 
 ### ¿Cómo nos comunicamos?
 - **Grupo - TL:**
