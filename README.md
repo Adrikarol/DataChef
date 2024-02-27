@@ -14,7 +14,6 @@ A través de un análisis exhaustivo de los datos disponibles, se identificarán
 |Participantes|Roles|
 |:---:|:---:|
 |<a href="https://github.com/Franco-Arce">Franco Arce</a>|![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge)|
-|<a href="https://github.com/Estefaniavago">Estefania Vago</a>|![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge)|
 |<a href="https://github.com/LeopoldoGitHub">Leopoldo Flores</a>|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge)|
 |<a href="https://github.com/mferreyra">Matias Ferreyra</a>|![](https://img.shields.io/badge/DATA%20ENGINEER-%23008000?style=for-the-badge)|
 |<a href="https://github.com/Adrikarol">Adriana Muñoz</a>|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge) ![](https://img.shields.io/badge/DATA%20ENGINEER-%23008000?style=for-the-badge)|
