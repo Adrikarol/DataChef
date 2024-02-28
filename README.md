@@ -1,58 +1,54 @@
 
-<img src="Media/Header ReadMe.png" alt="Header" width="100%">
+<img src="Media/header.png" alt="Header" width="100%">
 
 <h3><b>¡Bienvenid@s al repositorio del grupo 95 del cohorte 16 de data-bi de No Country! </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h3>
 <br>
+
 <h1><b>DataChef: Optimización Gastronómica</b></h1>
+<br>
 
 <p>En un mercado gastronómico cada vez más competitivo, la eficiencia y la rentabilidad son claves para el éxito. La vieja escuela de "intuición y experiencia" ya no basta. Los restaurantes que buscan destacarse necesitan herramientas que les permitan tomar decisiones estratégicas basadas en datos concretos.
 Aquí es donde entra en juego el análisis de datos y los modelos predictivos. Estas tecnologías innovadoras ofrecen una ventana al futuro, brindando información invaluable sobre el comportamiento de los clientes, las tendencias del mercado y el rendimiento del negocio.
 Este proyecto de análisis de datos tiene como objetivo aprovechar estas tecnologías para optimizar las operaciones y estrategias de ventas del restaurante, impulsando su eficiencia y rentabilidad a nuevos niveles.
 A través de un análisis exhaustivo de los datos disponibles, se identificarán áreas de mejora, se desarrollarán modelos predictivos para la demanda y la toma de decisiones, y se personalizará la experiencia del cliente.
 </p>
+<br>
 
-|Participantes|Roles|
-|:---:|:---:|
-|<a href="https://github.com/Franco-Arce">Franco Arce</a>|![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge)|
-|<a href="https://github.com/LeopoldoGitHub">Leopoldo Flores</a>|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge)|
-|<a href="https://github.com/mferreyra">Matias Ferreyra</a>|![](https://img.shields.io/badge/DATA%20ENGINEER-%23008000?style=for-the-badge)|
-|<a href="https://github.com/Adrikarol">Adriana Muñoz</a>|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge) ![](https://img.shields.io/badge/DATA%20ENGINEER-%23008000?style=for-the-badge)|
-|<a href="https://github.com/MrForii">Rodrigo Valdez</a>|![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge)|
-|<a href="https://github.com/jcdip2500">Julio Dip</a>|![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge)|
-|<a href="https://github.com/Matias-Ibarra">Matias Ibarra</a>|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge) ![](https://img.shields.io/badge/DATA%20ENGINEER-%23008000?style=for-the-badge)|
-|<a href="https://github.com/MCCoronel">Maria Celeste Coronel</a>|![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge)|
-|<a href="https://github.com/bichitox">Carlos Loayza</a>|![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge)|
-|<a href="https://github.com/DiegoUriel1">Diego Gallegos Estudillo</a>|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge)|
-|<a href="https://github.com/Angeltusp">Angel Gallegos Estudillo</a>|![](https://img.shields.io/badge/DATA%20ENGINEER-%23008000?style=for-the-badge)|
-
-
-<h1>Tecnologias utilizadas:</h1>
-
-### Base de datos
-- **Alojamiento:** AWS
-- **Gestión:** MySQL
-
-### Ciencia de datos
-- **Lenguaje:** Python (con sus respectivas librerías)
-- **Interpretes:** Visual Studio Code / Jupyter Notebook
-
-### Análisis de datos
-- **Limpieza y Visualización:**
-- Excel
-- Power BI
-
-### ¿Cómo nos comunicamos?
-- **Grupo - TL:**
-  - Slack
+****
  
-- **Integrantes del grupo:**
-  - Discord
-  - Trello
- 
-<h1>Producto mínimo viable (MVP):</h1>
-Nuestro MVP consiste en un gestor para restaurantes que trabaja a través de datos registrados por cada venta del local, estos datos están distribuidos en diferentes tablas relacionadas logicamente para dar
-forma a una base de datos alojada en la nube. A través de esta base de datos podemos realizar distintas consultas, sobre ventas individuales, diarias, por productos, por mesa, por camarero, por forma de pago, etc.
-Además de realizar predicciones de ventas que ayuden a la toma de decisiones.
+<h3 align="center"> Miembros del Equipo</h3>
+
+****
+<br>
+
+|Participantes|Roles|Redes|
+|:---:|:---:|:---:|
+|**Franco Arce**|![](https://img.shields.io/badge/PRODUCT%20MANAGER-red?style=for-the-badge) ![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge) | <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/franco-arce-37a83a220/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/Franco-Arce"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>   |
+|**Leopoldo Flores**|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/leopoldofloresc/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/LeopoldoGitHub"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>|
+|**Matias Ferreyra**|![](https://img.shields.io/badge/DATA%20ENGINEER-%23008000?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/matiasaferreyra/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/mferreyra"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>|
+|**Adriana Muñoz**|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge) ![](https://img.shields.io/badge/DATA%20ENGINEER-%23008000?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/adrianamuñozr/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/Adrikarol"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>|
+|**Rodrigo Valdez**|![](https://img.shields.io/badge/PRODUCT%20MANAGER-red?style=for-the-badge) ![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/rodrigo-valdez7/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/MrForii"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>|
+|**Julio Dip**|![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/julio-dip-qa-data-bi-python-jr"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/jcdip2500"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>|
+|**Matias Ibarra**|![](https://img.shields.io/badge/PRODUCT%20MANAGER-red?style=for-the-badge) ![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge) ![](https://img.shields.io/badge/DATA%20ENGINEER-%23008000?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/matias-ibarra92/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/Matias-Ibarra"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>|
+|**Maria Celeste Coronel**|![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/maria-celeste-coronel-b93837249/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/MCCoronel"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>|
+|**Diego Gallegos Estudillo**|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/gallegos-estudillo-diego-uriel-5055302b1/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/DiegoUriel1"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>|
+|**Angel Gallegos Estudillo**|![](https://img.shields.io/badge/DATA%20ENGINEER-%23008000?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/angel-rafael-gallegos-estudillo-7314a2270/ "><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/Angeltusp"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>|
+<br>
+
+<h2>Stack de Tecnologías </h2>
+<img src="Media/Tecnologias.png" alt="Header" width="100%">
+<br>
+
+<h2>Producto mínimo viable (MVP):</h2>
+<br>
+Nuestro objetivo con este gestor es brindar a los propietarios y gerentes de restaurantes una herramienta poderosa y eficiente para optimizar sus operaciones diarias. Al tener acceso a información detallada sobre las ventas, pueden identificar tendencias, ajustar su inventario, mejorar la eficiencia en el servicio y brindar una experiencia aún mejor a sus clientes. Las predicciones de ventas les permiten planificar con anticipación y estar preparados para satisfacer la demanda de manera efectiva. En resumen, nuestro MVP está diseñado para ser una herramienta integral que ayude a los restaurantes a crecer y prosperar en un mercado competitivo.
+
+<br>
+<h2>Etapas del Proyecto</h2>
+<br>
+
+<img src="Media/etapas.png" alt="Header" width="100%">
+<br>
 
 ****
  
@@ -77,10 +73,8 @@ A través de Discord programamos un horario conveniente para tener nuestra prime
 - #### Definición de horario de reuniones diarias.
 Definimos que el horario de reunión diaria sería todos los días a las 9 AM hora Argentina, con exccepción de Lunes y Jueves cuando nos reunimos luego de la reunión con el TL (9:30 AM)
 
-- #### Definiciñon roles:
-Así quedaron definidos los roles:
 
-<img src="./Media/roles.png">
+***
 
 - #### Primeras ideas sobre proyectos.
 Se barajaron varias opciones al principio, pero la decisión por unanimidad fue crear un gestor de restaurantes
