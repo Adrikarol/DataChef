@@ -54,6 +54,13 @@ Nuestro MVP consiste en un gestor para restaurantes que trabaja a través de dat
 forma a una base de datos alojada en la nube. A través de esta base de datos podemos realizar distintas consultas, sobre ventas individuales, diarias, por productos, por mesa, por camarero, por forma de pago, etc.
 Además de realizar predicciones de ventas que ayuden a la toma de decisiones.
 
+****
+ 
+<p align="center">
+  <a href="https://github.com/CodeWhiteWeb/CodeWhiteWeb"><img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=Memoria+Memoria+Memoria+Memoria"></a>
+</p>
+
+****
 
 ### Memoria del proyecto con los distintos sprints:
 
@@ -121,4 +128,4 @@ Una vez creada la base de datos, alojada en la nube, el equipo de análisis de d
 <img src="./Media/pbi2.png" width="800">
 
 
-### Sprint 1:
+### Sprint 2:
