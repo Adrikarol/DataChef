@@ -147,21 +147,26 @@ Para llevar a cabo este proyecto, el equipo de Análisis utilizará la herramien
 <h3><b>Tarea #1 -</b> Creación de la tabla calendario en Power BI</h3>
 
 Se ha diseñado una tabla en Power BI que despliega la fecha completa de cada registro. Adicionalmente, se han incorporado columnas para representar el mes (tanto en su formato numérico [1-12] como en su forma textual [Enero - Diciembre]), los días de la semana (también en formato numérico [1-31] y en texto [Domingo - Sábado]), y el año correspondiente.
-
+<br>
 Esta estructura resultará fundamental para la creación de segmentadores y la correcta filtración de los datos que el cliente desea visualizar.
 Una vez establecido este marco, se inició la distribución de los análisis que debían ser evaluados para la posterior elaboración del panel de control.
 <br>
 
 <h3><b>Insight #1 -</b> Análisis de Camareros </h3>
+<br>
 El analisis consiste en reunir toda informacion que sume valor al cliente del rendimiento de sus camareros, en este caso se han extraido los siguientes campos:
+
+<br>
+
 <li>Nombre de todos los camareros registrados</li>
 <li>Ingreso total que represento cada empleado</li>
 <li>Porcentaje que representan los ingresos por sobre el total de ingresos</li>
 <li>Ingresos promedios obtenidos por empleado</li>
 <li>Cantidad de ventas</li>
 <li>Propinas recibidas</li>
-
+<br>
 A su vez, se hace una segmentacion por meses, donde podemos ver los campos descritos anteriormente pero separados por mes
+<br>
 <img src="./Media/analisis-camareros-1.png" width="100%">
 <br>
 <h3><b>Insight #2 -</b> Análisis de Ventas </h3>
@@ -180,6 +185,7 @@ Realizar las visualizaciones que se crean acordes para reflejar la informacion s
 <br>
 <h3><b>Insight #3 -</b> Análisis de Ventas por Metodos Online </h3>
 El presente tiene como objetivo reunir los datos mas importantes segun los metodos de pago para compras Online, los mismos son:
+<br>
 <li>PedidosYa</li>
 <li>PedidosYa Efectivo</li>
 <li>Rappi</li>
@@ -187,28 +193,31 @@ El presente tiene como objetivo reunir los datos mas importantes segun los metod
 <li>UberEats</li>
 <li>Web Pay</li>
 <li>Mercat</li>
-
+<br>
 Para los mismos se deben calcular:
+<br>
 <li>Ventas totales por metodo</li>
 <li>Ingresos totales por metodo</li>
 <li>Ingresos promedio por metodos</li>
 <li>Porcentaje que represente del total</li>
-
+<br>
 Realizar las visualizaciones que se crean mas adecuadas para la representacion de la informacion
 <img src="./Media/analisis-online-1.png" width="100%">
 <br>
 <h3><b>Insight #4 -</b> Análisis de Ventas por Metodo Local</h3>
 El presente tiene como objetivo reunir los datos mas importantes segun los metodos de pago para compras Locales, los mismos son:
+<br>
 <li>Efectivo</li>
 <li>Tarjeta de Débito</li>
 <li>Tarjeta de Crédito</li>
-
+<br>
 Para los mismos se deben calcular:
+<br>
 <li>Ventas totales por metodo</li>
 <li>Ingresos totales por metodo</li>
 <li>Ingresos promedio por metodos</li>
 <li>Porcentaje que represente del total</li>
-
+<br>
 Realizar las visualizaciones que se crean mas adecuadas para la representacion de la informacion
 <img src="./Media/analisis-local-1.png" width="100%">
 <br>
@@ -216,9 +225,11 @@ Realizar las visualizaciones que se crean mas adecuadas para la representacion d
 
 <br>
 <h3><b>Tarea #2 -</b> Crear Informe de Rendimiento Diario </h3>
-
+<br>
 Crear una pagina nueva para implementar el “Drill trought”, conectado el analisis de los camareros con el informe diario.
-<li>En este se analizaran profundamente los siguientes campos:</li>
+<br>
+En este se analizaran profundamente los siguientes campos:
+<br>
 <li>Dia con mas ventas</li>
 <li>Dia con menos ventas</li>
 <li>Horario en el que hay mayor demanda</li>
@@ -226,6 +237,7 @@ Crear una pagina nueva para implementar el “Drill trought”, conectado el ana
 <li>Tabla con el progreso del mes, indicando ingresos obtenidos y ventas concretadas</li>
 <li>Segmentador para analizar meses</li>
 <li>Grafica para visualizar las ventas e ingresos a lo largo del mes</li>
+<br>
 <img src="./Media/informe-diario-1.png" width="100%">
 
 <br>
@@ -235,8 +247,9 @@ Actualizar los registros de documentación de los progresos alcanzados en cada S
 <br>
 <h3><b>Tarea #4 -</b> Diseño y Desarrollo de Landing Page </h3>
 Se solicita la creacion de una Landing Page para presentar de forma mas rapida e intuitiva nuestro producto al cliente
-
+<br>
 Para la misma se necesitara:
+<br>
 <li>Crear el diseño desde cero</li>
 <li>Definir su paleta de colores</li>
 <li>Definir el lenguaje en el cual se codificará [REACT]</li>
@@ -245,7 +258,7 @@ Para la misma se necesitara:
 <li>Construir la pagina web</li>
 <li>Corregir los detalles o errores que se presenten</li>
 <li>Presentar el prototipo al Equipo</li>
-
+<br>
 El resultado obtenido fue el siguiente:
-
+<br>
 <img src="./Media/landing.png" width="100%">
