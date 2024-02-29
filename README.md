@@ -5,6 +5,15 @@
 <br>
 
 <h1><b>👨‍🍳 DataChef: Optimización Gastronómica</b></h1>
+<hr>
+<div align="center"> 
+<a target="_blank" rel="noopener noreferrer" href=""><img src="Media/streamlit-button.png"width="30%"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://data-chef-no-country.netlify.app/"><img src="Media/webpage-button.png" width="30%"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://app.powerbi.com/view?r=eyJrIjoiYjdhODEwYTYtM2YxMS00YTQ5LTg1ZjMtNGM5MTA5YmEwM2Y5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9"><img src="Media/dashboard-button.png" width="30%"></a>
+
+
+</div>
+<hr>
 <br>
 
 <p>En un mercado gastronómico cada vez más competitivo, el éxito de un restaurante se sustenta en la eficiencia y la rentabilidad. La intuición y la experiencia tradicionales ya no bastan en este entorno. Para destacarse, los restaurantes deben valerse de herramientas que les permitan tomar decisiones estratégicas respaldadas por datos concretos. El análisis de datos y la implementación de modelos predictivos se vuelven imprescindibles en este contexto. Estas tecnologías innovadoras ofrecen una perspectiva hacia el futuro al proporcionar información valiosa sobre el comportamiento de los clientes, las tendencias del mercado y el rendimiento del negocio. El propósito de este proyecto de análisis de datos es aprovechar estas tecnologías para optimizar las operaciones y estrategias de ventas del restaurante, aumentando su eficiencia y rentabilidad. A través de un minucioso análisis de los datos disponibles, se identificarán áreas de mejora, se desarrollarán modelos predictivos para la demanda y la toma de decisiones, y se personalizará la experiencia del cliente.
