@@ -26,7 +26,8 @@
 
 ****
 <br>
-
+<div align="center"> 
+ 
 |Participantes|Roles|Redes|
 |:---:|:---:|:---:|
 |**Franco Arce**|![](https://img.shields.io/badge/PRODUCT%20MANAGER-red?style=for-the-badge) <br> ![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge) | <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/franco-arce-37a83a220/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/Franco-Arce"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>   |
@@ -39,6 +40,8 @@
 |**Maria Celeste Coronel**|![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/maria-celeste-coronel-b93837249/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/MCCoronel"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>|
 |**Diego Gallegos Estudillo**|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/gallegos-estudillo-diego-uriel-5055302b1/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/DiegoUriel1"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>|
 |**Angel Gallegos Estudillo**|![](https://img.shields.io/badge/DATA%20ENGINEER-%23008000?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/angel-rafael-gallegos-estudillo-7314a2270/ "><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/Angeltusp"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>|
+
+</div>
 <br>
 
 <h2>🚧 Stack de Tecnologías </h2>
