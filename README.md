@@ -48,6 +48,7 @@ Nuestro objetivo con este gestor es brindar a los propietarios y gerentes de res
 <h2>Etapas del Proyecto</h2>
 <img src="Media/etapas.png" alt="Header" width="100%">
 <br>
+<img src="./Media/arquitectura.png" width="100%">
 
 ****
  
