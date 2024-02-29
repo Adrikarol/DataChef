@@ -263,3 +263,36 @@ Para la misma se necesitara:
 El resultado obtenido fue el siguiente:
 <br>
 <img src="./Media/landing.png" width="100%">
+
+<h2 align='center' >Sprint 3</h2>
+
+<h3><b>Tarea #5 -</b> Diseño de Portadas para el Dashboard </h3>
+
+Tiene como tarea crear y diseñar las diferentes portadas que van a ser utilizadas en las paginas del Dashboard.
+<br>
+Para ello debe:
+<li>Respetar la paleta de colores utilizada en la Landing Page</li>
+<li>Adaptarse a las diferentes visualizaciones que se han creado</li>
+
+<br>
+Estas portadas fueron diseñadas con la aplicacion de Figma, la misma que fue utilizada para el diseño de la Landing Page, esto nos fue de gran ayuda ya que contabamos con la base de estilos y colores que debian ser usados en las portadas.
+<br>
+Se realizaron las portadas para cada una de las paginas que contenia el Dashboard, las mismas quedaron de esta manera:
+
+[Insertar Imagenes aca0]
+
+<h3>Insertar portadas en el Dashboard </h3>
+<br>
+Una vez exportados los diseños se procede a insertar cada fondo en las paginas correspondientes, a su vez, se acomodan las visualizaciones en los espacios ya definidos para una facil y clara comprension de la informacion.
+<br>
+Hecho esto el Dashboard quedo de esta manera:
+
+[Insertar Imagenes aca0]
+
+<h3>Reorganizacion de Medidas en Power BI </h3>
+
+En el archivo trabajado se encontraban insertas en el las diferentes medias calculadas que se han utilizado en el desarrollo del proyecto, las mismas estaban una debajo de otra sin organizacion alguna, se opto entonces por la agrupacion en carpetas segun el dato que contuviera cada una de ellas, de esta forma cualquier Analista que quisiera observar nuestro proyecto tendria una mejor comprension de la forma de trabajo utilizada.
+<br>
+Se muestra aqui la comparacion de el estado anterior y el actual de las medidas calculadas:
+
+[Insertar Imagenes aca0]
