@@ -60,64 +60,192 @@ Nuestro objetivo con este gestor es brindar a los propietarios y gerentes de res
 
 
 <h2 align='center' >Sprint 0</h2>
+<h3>Creación del canal de Discord:</h3>
 
-- #### Creación del canal de Discord:
-Desde el grupo de Slack se propuso utilizar Discord como medio de comunicación por su facilidad para compartir pantalla, dividir la comunicación en canales y por ser una herramienta que la mayoría sabia utilizar.
-En la imagen siguiente se muestra como fue la división de canales y salas de reuniones:
+<p>En el grupo de Slack se ha propuesto utilizar Discord como nuestra principal herramienta de comunicación. Esta decisión se basa en las siguientes ventajas que ofrece Discord:</p>
+
+<li>Compartir pantalla: ideal para colaborar en tareas que requieren visualización y edición conjunta de contenido. </li>
+<li>Canales: facilita la organización y seguimiento de conversaciones temáticas, evitando la saturación en un único canal. </li>
+<li>Familiaridad: la mayoría de nosotros ya conoce Discord, lo que facilita la adopción de la nueva plataforma. </li>
+
+<br>
+<h3>Organización de canales y salas de reuniones:</h3>
+
+Para aprovechar al máximo las funcionalidades de Discord, se propone la siguiente estructura:
 
 <img src="./Media/discord.png">
+<br>
+<h3>Primeras reuniones para conocernos.</h3>
+A través de Discord, coordinamos un horario conveniente para nuestra primera reunión. Durante este encuentro, nos presentamos, compartimos nuestras experiencias previas, y definimos los horarios y roles correspondientes.
+<br>
+<h3>Definición de horario de reuniones diarias.</h3>
+Hemos acordado que la reunión diaria se llevará a cabo todos los días a las 9:00 a.m., hora de Argentina, excepto los lunes y jueves, cuando nos reuniremos después de la reunión con el líder de equipo a las 9:30 a.m.
+Durante estas reuniones diarias, cada miembro del equipo tendrá la oportunidad de compartir actualizaciones sobre su progreso, discutir posibles obstáculos y colaborar en soluciones. Se destacó la importancia de que todos participemos activamente y que mantengamos una actitud abierta y receptiva hacia las ideas de los demás.
+<br>
+<h3>Primeras ideas sobre proyectos.</h3>
 
-- #### Primeras reuniones para conocernos.
-A través de Discord programamos un horario conveniente para tener nuestra primera reunión. En ella nos conocimos, compartimos nuestra experiencia previa, organizamos horarios y roles.
-
-- #### Definición de horario de reuniones diarias.
-Definimos que el horario de reunión diaria sería todos los días a las 9 AM hora Argentina, con exccepción de Lunes y Jueves cuando nos reunimos luego de la reunión con el TL (9:30 AM)
-
-
-- #### Primeras ideas sobre proyectos.
-Se barajaron varias opciones al principio, pero la decisión por unanimidad fue crear un gestor de restaurantes
-partiendo de datos reales del local donde trabaja una de las integrantes del grupo. Nos pareció la mejor opción no solo por el potencial que vimos en estos datos sino por tratarse de un caso real, lo que representa un desafio mayor.
+En un principio, se consideraron diversas opciones; sin embargo, la decisión unánime fue la creación de un sistema de gestión para restaurantes basado en datos reales provenientes de un establecimiento donde trabaja una de las integrantes del equipo. Esta elección se fundamentó no solo en el potencial identificado en dichos datos, sino también en la oportunidad de abordar un caso práctico, lo que plantea un desafío significativo.
 
 <h2 align='center' >Sprint 1</h2>
 
-- #### Elección del proyecto
-A partir de la elección de nuestro proyecto de ggestión de restaurantes, al que llamamos DataChef, comenzamos el print 1.
-
-- #### User Stories:
+<br>
+<h3>Elección del proyecto</h3>
+Después de haber establecido el proyecto durante el Sprint 0, el equipo se reunió para discutir varios aspectos, incluyendo el alcance, los objetivos, los requisitos y las metodologías. Tras esta revisión, comenzaron a trabajar en el proyecto. Durante las primeras semanas, se enfocaron en la planificación detallada de las tareas, asignando responsabilidades y estableciendo un cronograma claro. El equipo se comprometió a mantener una comunicación abierta y constante para garantizar un flujo de trabajo eficiente y colaborativo. A medida que avanzaban, surgieron desafíos que abordaron con creatividad y trabajo en equipo, demostrando su compromiso con el éxito del proyecto.
+<br>
+<h3>User Stories:</h3>
 
 1. Como propietario del restaurante, quiero poder acceder a análisis detallados sobre las ventas para la eficiencia operativa.
 2. Como gerente del restaurante, quiero recibir predicciones de las ventas de productos para ajustar el inventario y evitar la escasez o el exceso de stock.
 3. Como gerente del restaurante, quiero recibir mensualmente promociones más rentables para aumentar las ventas en horarios de poca demanda.
 4. Como gerente del restaurante, quiero saber la eficiencia de los empleados para incrementar el ticket promedio.
-
-
-- #### Primera extracción y limpieza de datos:
+<br>
+<h3>Primera extracción y limpieza de datos:</h3>
 Obtenemos los datos con los que el restaurante cuenta actualmente, a través de la API con la que el local trabaja.
 Podemos ver la estructura que tenian en ese momento:
 
 <img src="./Media/datos_toteat.png">
 
 En el archivo [conexión_api](./base_de_datos/conexion_api.ipynb) se puede ver todo el proceso de extracción y limpieza.
-
-- #### Creación de tablas y relaciones:
+<br>
+<h3>Creación de tablas y relaciones:</h3>
 Mediante cambios en la estructura de los datos, se definieron distintas tablas en las que dividimos los registros, para su escalabilidad. De esta manera la base de datos no solo es más eficiente y optimiza el rendimiento, sino que permite hacer análisis más detallados de algunos puntos importantes, como las ventas por productos.
 
 <img src="./Media/diagrama.png" width="1200">
 
 En el archivo [conexión_bbdd](./base_de_datos/conexion_bbdd.ipynb) se puede ver también cómo se crean las diferentes tablas y sus relaciones.
+<br>
+<h3> Creación de la base de datos en AWS</h3>
+Tras evaluar diversas plataformas disponibles en el mercado para almacenar nuestros datos en la nube, se optó por Amazon Web Services debido a la amplia gama de recursos que proporciona.
+Entre las ventajas que ofrece Amazon Web Services se encuentran su alta fiabilidad, escalabilidad y seguridad en el almacenamiento de datos. Además, su facilidad de uso y la posibilidad de personalizar los servicios según las necesidades específicas de nuestra empresa fueron aspectos determinantes en la elección de esta plataforma. 
 
-- #### Creación de la base de datos en AWS
-El método para alojar nuestros datos es Amazon Web Service.
+Con AWS, tenemos la confianza de que nuestros datos estarán seguros y accesibles en todo momento, lo que nos permite enfocarnos en nuestro trabajo sin preocuparnos por la gestión de la infraestructura de almacenamiento.
 
 <img src="./Media/aws.png">
 
 En el archivo [conexión_bbdd](./base_de_datos/conexion_bbdd.ipynb) se puede ver también cómo se crean las diferentes tablas y sus relaciones.
+<br>
+<h3>Conexión de la base de datos a Power BI y primeros análisis</h3>
 
-- #### Conexión de la base de datos a Power Bi y primeros análisis
-Una vez creada la base de datos, alojada en la nube, el equipo de análisis de datos comenzo con los primeros análisis.
+Una vez que se implementó la base de datos en la nube, el equipo de análisis logró establecer la conexión con éxito, lo cual les brindó acceso a los datos necesarios para su análisis. A partir de esta información, se crearon las primeras visualizaciones en Power BI:
 
-<img src="./Media/pbi1.png" width="800">
-<img src="./Media/pbi2.png" width="800">
+<img src="./Media/pbi1.png" width="100%">
+<img src="./Media/pbi2.png" width="100%">
 
+Tambien se organizaron los Insights a desarrollar, cada uno posee descripcion de los resultados que se esperan obtener, lo que permite una mejor comprensión de la información.
 
-### Sprint 2:
+Los mismos estan detallados en el <a href="https://trello.com/b/KMEuOzVb/analistas-de-datos"><b>Trello</b></a> en el que ha trabajado el Equipo de Analistas de Datos.
+
+<br>
+<h3>Creación de Landing Page</h3>
+El equipo de Análisis se comprometió a crear una página web impactante que presentara el Producto Mínimo Viable (MVP) de forma clara y atractiva. Además, se incluirá información detallada sobre el objetivo del proyecto, el stack tecnológico utilizado y el equipo que hizo posible su desarrollo.
+<br>
+Para llevar a cabo este proyecto, el equipo de Análisis utilizará la herramienta Figma para diseñar la Landing Page de manera profesional y efectiva. La construcción de la página se realizará en React, aprovechando las ventajas que ofrece esta tecnología. Para darle un toque visual único, se emplearán librerías como Tailwind CSS para el estilizado, Swipper para crear una galería de imágenes dinámica y atractiva, y React Router para gestionar el redireccionamiento de manera eficiente.
+
+<h2 align='center' >Sprint 2</h2>
+
+<br>
+<h3><b>Tarea #1 -</b> Creación de la tabla calendario en Power BI</h3>
+
+Se ha diseñado una tabla en Power BI que despliega la fecha completa de cada registro. Adicionalmente, se han incorporado columnas para representar el mes (tanto en su formato numérico [1-12] como en su forma textual [Enero - Diciembre]), los días de la semana (también en formato numérico [1-31] y en texto [Domingo - Sábado]), y el año correspondiente.
+
+Esta estructura resultará fundamental para la creación de segmentadores y la correcta filtración de los datos que el cliente desea visualizar.
+Una vez establecido este marco, se inició la distribución de los análisis que debían ser evaluados para la posterior elaboración del panel de control.
+<br>
+
+<h3><b>Insight #1 -</b> Análisis de Camareros </h3>
+El analisis consiste en reunir toda informacion que sume valor al cliente del rendimiento de sus camareros, en este caso se han extraido los siguientes campos:
+<li>Nombre de todos los camareros registrados</li>
+<li>Ingreso total que represento cada empleado</li>
+<li>Porcentaje que representan los ingresos por sobre el total de ingresos</li>
+<li>Ingresos promedios obtenidos por empleado</li>
+<li>Cantidad de ventas</li>
+<li>Propinas recibidas</li>
+
+A su vez, se hace una segmentacion por meses, donde podemos ver los campos descritos anteriormente pero separados por mes
+<img src="./Media/analisis-camareros-1.png" width="100%">
+<br>
+<h3><b>Insight #2 -</b> Análisis de Ventas </h3>
+En el mismo se reuniran los datos mas importantes para medir el rendimiento historico del restaurante, para ello sera necesario
+<li>Calcular ingresos totales del cliente</li>
+<li>Calcular ventas totales del cliente</li>
+<li>Calcular ingresos promedio del cliente</li>
+
+Se debera contar con segmentaciones por:
+<li>Año</li>
+<li>Trimestre</li>
+<li>Estacion</li>
+
+Realizar las visualizaciones que se crean acordes para reflejar la informacion solicitada
+<img src="./Media/analisis-ventas-1.png" width="100%">
+<br>
+<h3><b>Insight #3 -</b> Análisis de Ventas por Metodos Online </h3>
+El presente tiene como objetivo reunir los datos mas importantes segun los metodos de pago para compras Online, los mismos son:
+<li>PedidosYa</li>
+<li>PedidosYa Efectivo</li>
+<li>Rappi</li>
+<li>PedidosYa Vouchers</li>
+<li>UberEats</li>
+<li>Web Pay</li>
+<li>Mercat</li>
+
+Para los mismos se deben calcular:
+<li>Ventas totales por metodo</li>
+<li>Ingresos totales por metodo</li>
+<li>Ingresos promedio por metodos</li>
+<li>Porcentaje que represente del total</li>
+
+Realizar las visualizaciones que se crean mas adecuadas para la representacion de la informacion
+<img src="./Media/analisis-online-1.png" width="100%">
+<br>
+<h3><b>Insight #4 -</b> Análisis de Ventas por Metodo Local</h3>
+El presente tiene como objetivo reunir los datos mas importantes segun los metodos de pago para compras Locales, los mismos son:
+<li>Efectivo</li>
+<li>Tarjeta de Débito</li>
+<li>Tarjeta de Crédito</li>
+
+Para los mismos se deben calcular:
+<li>Ventas totales por metodo</li>
+<li>Ingresos totales por metodo</li>
+<li>Ingresos promedio por metodos</li>
+<li>Porcentaje que represente del total</li>
+
+Realizar las visualizaciones que se crean mas adecuadas para la representacion de la informacion
+<img src="./Media/analisis-local-1.png" width="100%">
+<br>
+<h3>Tareas que se han desarrollado en este Sprint:</h3>
+
+<br>
+<h3><b>Tarea #2 -</b> Crear Informe de Rendimiento Diario </h3>
+
+Crear una pagina nueva para implementar el “Drill trought”, conectado el analisis de los camareros con el informe diario.
+<li>En este se analizaran profundamente los siguientes campos:</li>
+<li>Dia con mas ventas</li>
+<li>Dia con menos ventas</li>
+<li>Horario en el que hay mayor demanda</li>
+<li>Horario en el que hay menor demanda</li>
+<li>Tabla con el progreso del mes, indicando ingresos obtenidos y ventas concretadas</li>
+<li>Segmentador para analizar meses</li>
+<li>Grafica para visualizar las ventas e ingresos a lo largo del mes</li>
+<img src="./Media/informe-diario-1.png" width="100%">
+
+<br>
+<h3><b>Tarea #3 -</b> Actualizar Documentación </h3>
+Actualizar los registros de documentación de los progresos alcanzados en cada Sprint es esencial. Mantener al día estos registros documentales nos permite un seguimiento detallado de los avances logrados en cada Sprint. Esto posibilita tener un historial claro de las tareas completadas, los obstáculos superados y los resultados obtenidos.
+
+<br>
+<h3><b>Tarea #4 -</b> Diseño y Desarrollo de Landing Page </h3>
+Se solicita la creacion de una Landing Page para presentar de forma mas rapida e intuitiva nuestro producto al cliente
+
+Para la misma se necesitara:
+<li>Crear el diseño desde cero</li>
+<li>Definir su paleta de colores</li>
+<li>Definir el lenguaje en el cual se codificará [REACT]</li>
+<li>Crear el repositorio de la Landing</li>
+<li>Instalar la base y las dependencias necesarias para el desarrollo</li>
+<li>Construir la pagina web</li>
+<li>Corregir los detalles o errores que se presenten</li>
+<li>Presentar el prototipo al Equipo</li>
+
+El resultado obtenido fue el siguiente:
+
+<img src="./Media/landing.png" width="100%">
