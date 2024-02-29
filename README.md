@@ -143,6 +143,25 @@ El equipo de Análisis se comprometió a crear una página web impactante que pr
 Para llevar a cabo este proyecto, el equipo de Análisis utilizará la herramienta Figma para diseñar la Landing Page de manera profesional y efectiva. La construcción de la página se realizará en React, aprovechando las ventajas que ofrece esta tecnología. Para darle un toque visual único, se emplearán librerías como Tailwind CSS para el estilizado, Swipper para crear una galería de imágenes dinámica y atractiva, y React Router para gestionar el redireccionamiento de manera eficiente.
 
 <h2 align='center' >Sprint 2</h2>
+<br>
+<h3>Actualización de Forma de Pago</h3>
+
+El equipo de Ingeniería de Datos solicitó la modificación de los métodos de pago debido a la presencia de "UberEats" y "Uber eats" en los registros, lo cual generaba una inconsistencia en la base de datos al referirse a la misma plataforma de forma dispar. Para abordar esta situación:
+
+<li>Se realizo una consulta a toda la base de datos para reunir todos los registros con el método de pago <b>"Uber eats"</b></li>
+<li>Se procedió a actualizar el campo de payment_id a <b>"5012" </b>(correspondiente a "UberEats") en dichos registros.</li>
+<li>Por ultimo se elimina de la tabla de Metodos de Pago a <b>"Uber eats"</b> cuyo id era <b>50004</b></li>
+
+<br>Se realizaron estos ajustes para garantizar la coherencia y precisión de la base de datos en relación a los métodos de pago de "Uber Eats". Estas medidas contribuirán a una mejor organización de la información y a evitar posibles errores futuros.
+
+<br>Para ver mas en detalle como se realizo este trabajo le recomendamos ver el <a href="/base_de_datos/cambio_formadepagouber.ipynb"><b>archivo</b></a> que contiene el proceso.
+
+<br>
+<h3>Actualización de Productos</h3>
+
+
+
+
 
 <br>
 <h3><b>Tarea #1 -</b> Creación de la tabla calendario en Power BI</h3>
@@ -277,9 +296,10 @@ Para ello debe:
 <br>
 Estas portadas fueron diseñadas con la aplicacion de Figma, la misma que fue utilizada para el diseño de la Landing Page, esto nos fue de gran ayuda ya que contabamos con la base de estilos y colores que debian ser usados en las portadas.
 <br>
-Se realizaron las portadas para cada una de las paginas que contenia el Dashboard, las mismas quedaron de esta manera:
+Se realizaron las portadas para cada una de las paginas que contenia el Dashboard, algunas de ellas quedaron de esta manera:
 
-[Insertar Imagenes aca0]
+<img src="./Media/portada.png" width="100%">
+<img src="./Media/pag-camareros.png" width="100%">
 
 <h3>Insertar portadas en el Dashboard </h3>
 <br>
@@ -287,12 +307,13 @@ Una vez exportados los diseños se procede a insertar cada fondo en las paginas 
 <br>
 Hecho esto el Dashboard quedo de esta manera:
 
-[Insertar Imagenes aca0]
-
+<img src="./Media/dashboard-1.png" width="100%">
+<img src="./Media/dashboard-4.png" width="100%">
+<img src="./Media/dashboard-3.png" width="100%">
 <h3>Reorganizacion de Medidas en Power BI </h3>
 
 En el archivo trabajado se encontraban insertas en el las diferentes medias calculadas que se han utilizado en el desarrollo del proyecto, las mismas estaban una debajo de otra sin organizacion alguna, se opto entonces por la agrupacion en carpetas segun el dato que contuviera cada una de ellas, de esta forma cualquier Analista que quisiera observar nuestro proyecto tendria una mejor comprension de la forma de trabajo utilizada.
 <br>
 Se muestra aqui la comparacion de el estado anterior y el actual de las medidas calculadas:
 
-[Insertar Imagenes aca0]
+<img src="./Media/medidas.png" width="100%">
