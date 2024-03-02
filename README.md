@@ -59,6 +59,10 @@ Nuestro objetivo con este gestor es brindar a los propietarios y gerentes de res
 <h2>🚧 Etapas del Proyecto</h2>
 <img src="Media/etapas.png" alt="Header" width="100%">
 <img src="./Media/arquitectura.png" width="100%">
+<h2>🚧 Conclusiones</h2>
+<img src="Media/conclusiones-1.png" alt="Header" width="100%">
+<img src="Media/conclusiones-2.png" alt="Header" width="100%">
+<img src="Media/conclusiones-3.png" alt="Header" width="100%">
 
 ****
  
@@ -167,11 +171,23 @@ El equipo de Ingeniería de Datos solicitó la modificación de los métodos de 
 <br>Para ver mas en detalle como se realizo este trabajo le recomendamos ver el <a href="/base_de_datos/cambio_formadepagouber.ipynb"><b>archivo</b></a> que contiene el proceso.
 
 <br>
-<h3>Actualización de Productos</h3>
+<h3>🚩 Actualización de Productos</h3>
 
+Al momento de analizar los productos ofrecidos por el restaurante nos encontramos con que había inconsistencias en la base de datos, estas eran:<br>
+<li>Nombres de productos repetidos para productos que correspondían a diferentes métodos de compra (en el Local, en UberEats, en Rappi, etc).</li>
+<li>Productos con precio 0, este era un problema importante ya que no podíamos valorar las compras de productos que no tuvieran precio, estos generarían errores en los resultados brindados a nuestro cliente.</li>
+<li>Toppings que aparecían como productos individuales.</li>
+<li>Jerarquías que fueron creadas para eventos específicos que no tenían impacto sobre las ventas del local.</li>
+<br>
+Para afrontar esta situación se realizo lo siguiente:
+<li>Se modificaron y combinaron los productos que correspondían a un medio de compra, dejando detallado a que método correspondía</li>
+<li>Se eliminaron las Jerarquías que no tenían impacto en las ventas del local</li>
+<li>Se corrigieron los precios para aquellos productos que tenían precio 0</li>
+<li>Se eliminaron los registros duplicados o que poseían errores en su contenido</li>
+<br>
+Por ultimo todos estos cambios fueron cargados en la base de datos en AWS para así ya poder realizar los análisis pertinentes con los datos correctos
 
-
-
+<br>Para ver mas en detalle como se realizo este trabajo le recomendamos ver el archivo de <a href="/base_de_datos/modificacion_precios.ipynb"><b>modificación de los precios</b></a> y el de <a href="/base_de_datos/productos_actualizados.ipynb"><b>productos actualizados</b></a> que contienen el proceso.
 
 <br>
 <h3><b>🚩 Tarea #1 -</b> Creación de la tabla calendario en Power BI</h3>
