@@ -187,8 +187,6 @@ Para afrontar esta situación se realizo lo siguiente:
 <li>Se eliminaron los registros duplicados o que poseían errores en su contenido</li>
 <br>
 Por ultimo todos estos cambios fueron cargados en la base de datos en AWS para así ya poder realizar los análisis pertinentes con los datos correctos
-
-<br>Para ver mas en detalle como se realizo este trabajo le recomendamos ver el archivo de <a href="/base_de_datos/modificacion_precios.ipynb"><b>modificación de los precios</b></a> y el de <a href="/base_de_datos/productos_actualizados.ipynb"><b>productos actualizados</b></a> que contienen el proceso.
 <br>
 <h3> Estos fueron los resultados:</h3>
 <div align="center">
@@ -199,6 +197,9 @@ Por ultimo todos estos cambios fueron cargados en la base de datos en AWS para a
 <img src="./Media/combiapapas1.png" width="100%">
 <img src="./Media/uniform_1.png" width="20%">
 </div>
+<br>Para ver mas en detalle como se realizo este trabajo le recomendamos ver el archivo de <a href="/base_de_datos/modificacion_precios.ipynb"><b>modificación de los precios</b></a> y el de <a href="/base_de_datos/productos_actualizados.ipynb"><b>productos actualizados</b></a> que contienen el proceso.
+
+
 
 <br>
 <h3><b>🚩 Tarea #1 -</b> Creación de la tabla calendario en Power BI</h3>
@@ -364,3 +365,31 @@ Este fue el proceso seguido para crear un modelo predictivo destinado a estimar 
 Este procedimiento asegura una gestión eficiente del inventario, adaptándose a las variaciones de demanda y optimizando la disponibilidad de productos según las tendencias históricas de venta.
 <img src="./Media/predict.png" width="100%">
 <h4 align="right">Grafica de validacion cruzada para Hamburguesa Clasica</h4>
+<br>
+Obtuvimos un modelo predictivo que tiene el siguiente margen de error para cada semana en un tiempo aproximado de un mes. Como los datos reales son hasta febrero, recomendamos hacer predicciones hasta mayo para mayor precisión, ya que al no tener actualización de datos las predicciones hasta más adelante se basan en predicciones anteriores.
+
+<br>
+<div align="center">
+<img src="./Media/rmse.png" width="35%">
+</div>
+<br>
+<br>Para ver mas en detalle como se realizo este trabajo le recomendamos ver el <a href="/base_de_datos/Prediccion_productos .ipynb"><b>archivo</b></a> que contiene el proceso.
+
+<h2 align='center' >✅ Sprint 4 ✅ </h2>
+
+<h3>🚩 Diseño de la presentación del DemoDay </h3>
+
+Transitando ya el ultimo sprint de la simulación comenzamos a trabajar en la presentacion final de nuestro proyecto: el DemoDay.
+
+Fuimos organizando toda la informacion que teniamos disponible, separando los puntos claves de nuestro proyecto en una presentación clara y concisa. Los temas que abordamos las slides son:<br>
+
+<li>¿Porque nace DataChef?</li>
+<li>¿Que es DataChef?</li>
+<li>¿Que puedo hacer con DataChef?</li>
+<li>¿Porque debería implementar DataChef?</li>
+<li>Conclusión y próximos pasos</li>
+
+<br>
+<br>Puedes ver la presentación completa en el siguiente <a href="https://docs.google.com/presentation/d/1MoUGlrZQtjhUjuHmYsH0MJyTQpJ-o4Bo2laxTV-sMyc/edit#slide=id.g2bf9f2a4d85_0_35"><b>link</b></a>
+
+<hr>
