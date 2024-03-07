@@ -3,9 +3,7 @@ import pandas as pd
 from PIL import Image
 import datetime
 import streamlit.components.v1 as c
-import pickle
 import numpy as np
-import seaborn as sns
 import matplotlib.pyplot as plt
 from math import ceil
 from pmdarima.arima import auto_arima
@@ -17,7 +15,6 @@ logger = logging.getLogger('cmdstanpy')
 logger.addHandler(logging.NullHandler())
 logger.propagate=False
 logger.setLevel(logging.CRITICAL)
-import matplotlib.dates as mdates
 import warnings
 warnings.filterwarnings('ignore')
 
