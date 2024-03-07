@@ -1,5 +1,5 @@
 
-<img src="Media/header.png" width="100%">
+<img src="Media/header.png" alt="Header" width="100%">
 
 <h3><b>¡Bienvenid@s al repositorio del grupo 95 del cohorte 16 de data-bi de No Country! </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h3>
 <br>
@@ -38,8 +38,6 @@
 |**Julio Dip**|![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/julio-dip-qa-data-bi-python-jr"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/jcdip2500"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>|
 |**Matias Ibarra**|![](https://img.shields.io/badge/PROJECT%20MANAGER-red?style=for-the-badge) <br> ![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge) <br> ![](https://img.shields.io/badge/DATA%20ENGINEER-%23008000?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/matias-ibarra92/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/Matias-Ibarra"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>|
 |**Maria Celeste Coronel**|![](https://img.shields.io/badge/DATA%20ANALYST-yellow?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/maria-celeste-coronel-b93837249/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/MCCoronel"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>|
-|**Diego Gallegos Estudillo**|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/gallegos-estudillo-diego-uriel-5055302b1/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/DiegoUriel1"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>|
-|**Angel Gallegos Estudillo**|![](https://img.shields.io/badge/DATA%20ENGINEER-%23008000?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/angel-rafael-gallegos-estudillo-7314a2270/ "><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/Angeltusp"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>|
 
 </div>
 <br>
