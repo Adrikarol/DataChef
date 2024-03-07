@@ -9,7 +9,7 @@
 <div align="center"> 
 <a target="_blank" rel="noopener noreferrer" href="https://c16-95-m-data-bi-cwwi88jhlw2ywgzaxznmjb.streamlit.app/"><img src="Media/streamlit-button.png"width="30%"></a>
 <a target="_blank" rel="noopener noreferrer" href="https://data-chef-no-country.netlify.app/"><img src="Media/webpage-button.png" width="30%"></a>
-<a target="_blank" rel="noopener noreferrer" href="https://app.powerbi.com/view?r=eyJrIjoiYjdhODEwYTYtM2YxMS00YTQ5LTg1ZjMtNGM5MTA5YmEwM2Y5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9"><img src="Media/dashboard-button.png" width="30%"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://app.powerbi.com/view?r=eyJrIjoiYmMxMWIwMWYtNDFjMy00NDIyLTg3ODQtMzM5MTJiZDk3M2VhIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9"><img src="Media/dashboard-button.png" width="30%"></a>
 
 
 </div>
@@ -313,7 +313,7 @@ Para la misma se necesitara:
 El resultado obtenido fue el siguiente:
 <br>
 <img src="./Media/landing.png" width="100%">
-
+Todos los archivos de nuestra pagina estan en el siguiente <a href="https://github.com/MrForii/c16-95-m-data-bi-landing"><b>Repositorio</b></a>
 <h2 align='center' >✅ Sprint 3 ✅ </h2>
 
 <h3><b>🚩 Tarea #5 -</b> Diseño de Portadas para el Dashboard </h3>
