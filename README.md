@@ -194,10 +194,10 @@ Por ultimo todos estos cambios fueron cargados en la base de datos en AWS para a
 <div align="center">
 <h3> Antes:</h3>
 <img src="./Media/combipapas.png" width="100%">
-<img src="./Media/uniform.png" width="45%">
+<img src="./Media/uniform.png" width="20%">
 <h3> Despues:</h3>
 <img src="./Media/combiapapas1.png" width="100%">
-<img src="./Media/uniform_1.png" width="45%">
+<img src="./Media/uniform_1.png" width="20%">
 </div>
 
 <br>
