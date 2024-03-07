@@ -1,3 +1,4 @@
+
 <img src="Media/header.png" alt="Header" width="100%">
 
 <h3><b>¡Bienvenid@s al repositorio del grupo 95 del cohorte 16 de data-bi de No Country! </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h3>
@@ -42,7 +43,10 @@
 <br>
 
 <h2>🚧 Stack de Tecnologías </h2>
-<img src="Media/Tecnologias.png" alt="Header" width="100%">
+<img src="Media/Tecnologias.png" width="100%">
+
+<h2>🚩 User Stories:</h2>
+<img src="Media/user-stories.png" width="100%">
 
 <h2>🚧 Producto mínimo viable (MVP):</h2>
 <br>
@@ -50,16 +54,16 @@ Nuestro objetivo con este gestor es brindar a los propietarios y gerentes de res
 <br>
 
 <h2>🚧 Dashboard Interactivo Power BI</h2>
-<img src="Media/dashboard-1.png" alt="Header" width="100%">
-<img src="Media/dashboard-2.png" alt="Header" width="100%">
-<img src="Media/dashboard-3.png" alt="Header" width="100%">
+<img src="Media/dashboard-1.png" width="100%">
+<img src="Media/dashboard-2.png" width="100%">
+<img src="Media/dashboard-3.png" width="100%">
 <h2>🚧 Etapas del Proyecto</h2>
-<img src="Media/etapas.png" alt="Header" width="100%">
+<img src="Media/etapas.png" width="100%">
 <img src="./Media/arquitectura.png" width="100%">
 <h2>🚧 Conclusiones</h2>
-<img src="Media/conclusiones-1.png" alt="Header" width="100%">
-<img src="Media/conclusiones-2.png" alt="Header" width="100%">
-<img src="Media/conclusiones-3.png" alt="Header" width="100%">
+<img src="Media/conclusiones-1.png" width="100%">
+<img src="Media/conclusiones-2.png" width="100%">
+<img src="Media/conclusiones-3.png" width="100%">
 
 ****
  
@@ -104,7 +108,7 @@ En un principio, se consideraron diversas opciones; sin embargo, la decisión un
 <h3>🚩 Elección del proyecto</h3>
 Después de haber establecido el proyecto durante el Sprint 0, el equipo se reunió para discutir varios aspectos, incluyendo el alcance, los objetivos, los requisitos y las metodologías. Tras esta revisión, comenzaron a trabajar en el proyecto. Durante las primeras semanas, se enfocaron en la planificación detallada de las tareas, asignando responsabilidades y estableciendo un cronograma claro. El equipo se comprometió a mantener una comunicación abierta y constante para garantizar un flujo de trabajo eficiente y colaborativo. A medida que avanzaban, surgieron desafíos que abordaron con creatividad y trabajo en equipo, demostrando su compromiso con el éxito del proyecto.
 <br>
-<h3>🚩 User Stories:</h3>
+<h3>🚩 Definir User Stories:</h3>
 
 1. Como propietario del restaurante, quiero poder acceder a análisis detallados sobre las ventas para la eficiencia operativa.
 2. Como gerente del restaurante, quiero recibir predicciones de las ventas de productos para ajustar el inventario y evitar la escasez o el exceso de stock.
@@ -185,6 +189,16 @@ Para afrontar esta situación se realizo lo siguiente:
 Por ultimo todos estos cambios fueron cargados en la base de datos en AWS para así ya poder realizar los análisis pertinentes con los datos correctos
 
 <br>Para ver mas en detalle como se realizo este trabajo le recomendamos ver el archivo de <a href="/base_de_datos/modificacion_precios.ipynb"><b>modificación de los precios</b></a> y el de <a href="/base_de_datos/productos_actualizados.ipynb"><b>productos actualizados</b></a> que contienen el proceso.
+<br>
+<h3> Estos fueron los resultados:</h3>
+<div align="center">
+<h3> Antes:</h3>
+<img src="./Media/combipapas.png" width="100%">
+<img src="./Media/uniform.png" width="45%">
+<h3> Despues:</h3>
+<img src="./Media/combiapapas1.png" width="100%">
+<img src="./Media/uniform_1.png" width="45%">
+</div>
 
 <br>
 <h3><b>🚩 Tarea #1 -</b> Creación de la tabla calendario en Power BI</h3>
@@ -259,7 +273,6 @@ Para los mismos se deben calcular:
 <br>
 Realizar las visualizaciones que se crean mas adecuadas para la representacion de la informacion
 <img src="./Media/analisis-local-1.png" width="100%">
-<h3>🚩 Tareas que se han desarrollado en este Sprint:</h3>
 
 <br>
 <h3><b>🚩 Tarea #2 -</b> Crear Informe de Rendimiento Diario </h3>
@@ -333,3 +346,21 @@ En el archivo trabajado se encontraban insertas en el las diferentes medias calc
 Se muestra aqui la comparacion de el estado anterior y el actual de las medidas calculadas:
 
 <img src="./Media/medidas.png" width="100%">
+
+<h3>🚩 Elaboración de Analisis de Series Temporales </h3>
+
+Este fue el proceso seguido para crear un modelo predictivo destinado a estimar las cantidades semanales de productos necesarios para un local comercial. El objetivo es optimizar el inventario basándose en el historial de ventas. A continuación, se describen los pasos principales del proceso:
+
+<li><b>Preparación de Datos:</b> Se genera un dataframe centrado exclusivamente en la fecha y el nombre del producto, derivado de la estructura original de ventas. Las fechas se convierten al formato datetime para facilitar el análisis de series temporales, agrupando los datos por producto y semana para determinar la frecuencia de venta de cada uno.
+</li>
+
+<li><b>Limpieza y Filtrado:</b> Se eliminan los productos que no registraron ventas consistentes en el periodo analizado, enfocándose en aquellos con un historial de ventas constante y descartando aquellos con ventas insignificantes o esporádicas.</li>
+<li><b>Análisis Exploratorio:</b> Mediante heatmaps, se examina la frecuencia de ventas semanal, identificando los productos más populares y las tendencias estacionales, lo que permite ajustar los parámetros del modelo predictivo para reflejar patrones de compra repetitivos.</li>
+<li><b>Modelado Predictivo:</b> Se utiliza el modelo ARIMA, adecuado para datos de series temporales, ajustando el parámetro 'm' para capturar la estacionalidad. El proceso incluye la división de datos en conjuntos de entrenamiento y prueba, y la implementación de un enfoque paso a paso para la predicción semanal.</li>
+<li><b>Evaluación del Modelo:</b> Se calcula el RMSE (Error Cuadrático Medio Raíz) para cada producto, proporcionando una medida de la precisión de las predicciones. Los modelos se ajustan individualmente para cada producto, optimizando su capacidad predictiva.</li>
+<li><b>Visualización de Resultados:</b> Se presentan gráficos comparativos de las predicciones versus las ventas reales, ofreciendo una visualización clara de la precisión del modelo.</li>
+
+<br>
+Este procedimiento asegura una gestión eficiente del inventario, adaptándose a las variaciones de demanda y optimizando la disponibilidad de productos según las tendencias históricas de venta.
+<img src="./Media/predict.png" width="100%">
+<h4 align="right">Grafica de validacion cruzada para Hamburguesa Clasica</h4>
