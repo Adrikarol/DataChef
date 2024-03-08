@@ -109,7 +109,7 @@ elif seleccion == "Análisis de datos":
     st.write("## Análisis de datos:")
     st.write("A través de Power BI realizamos un análisis de los datos del restaurante, que se pueden consultar de manera interactiva en el siguiente dashboard:")
 
-    st.write("<iframe width='1000' height='600' src='https://app.powerbi.com/view?r=eyJrIjoiYmM1YTUzNWEtOGEwNC00NTlmLTg2YTQtOWIyNzEyYzdmOTExIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9' style='display:block;margin:auto;'></iframe>", unsafe_allow_html=True)
+    st.write("<iframe width='1000' height='600' src='https://app.powerbi.com/view?r=eyJrIjoiYmMxMWIwMWYtNDFjMy00NDIyLTg3ODQtMzM5MTJiZDk3M2VhIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9' style='display:block;margin:auto;'></iframe>", unsafe_allow_html=True)
 
 elif seleccion == "Predicciones":
 
